@@ -41,6 +41,7 @@ You will have to implement the logic for both Huffman encoding and decoding.
 
 In Windows Active Directory, a group can consist of user(s) and group(s) themselves. We can construct this hierarchy as such. Where User is represented by str representing their ids.
 
+```
 class Group(object):
     def __init__(self, _name):
         self.name = _name
@@ -72,6 +73,8 @@ sub_child.add_user(sub_child_user)
 
 child.add_group(sub_child)
 parent.add_group(child)
+
+```
 
 Write a function that provides an efficient look up of whether the user is in a group.
 
